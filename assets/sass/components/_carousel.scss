@@ -1,0 +1,9 @@
+.carousel {
+  @include respond(tab-port) {
+    opacity: 0;
+    visibility: hidden;
+  }
+  &--img {
+    height: 52rem;
+  }
+}

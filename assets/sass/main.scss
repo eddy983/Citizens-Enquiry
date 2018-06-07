@@ -1,0 +1,29 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/reset";
+@import "abstracts/variables";
+
+@import "base/animation";
+@import "base/base";
+@import "base/figures";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/accordion";
+@import "components/button";
+@import "components/carousel";
+@import "components/enquiry";
+@import "components/nav-bar";
+@import "components/officials";
+@import "components/popup"; 
+
+
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/header"; 
+@import "layout/navigation";
+ 
+@import "pages/about-us";
+@import "pages/bio";
+@import "pages/view-all";
+

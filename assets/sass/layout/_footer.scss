@@ -1,0 +1,118 @@
+.footer {
+  &__box {
+    background-color: lightgray;
+    background-image: url(../../../assets/img/Grey-bg8.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 82vh;
+
+    @include respond(tab-port) {
+      height: 64vh;
+    }
+
+    @include respond(phone) {
+      height: 40vh;
+    }
+
+    @include respond(m-phone) {
+      height: 36vh;
+    }
+
+
+    &--img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  &__btns {
+    padding-top: 3.6rem;
+  }
+
+  &__text {
+    margin-top: 4rem;
+
+    @include respond(phone) {
+      margin-top: -5rem;
+    }
+
+    &__paragraph {
+      font-size: 1.3rem;
+      margin-bottom: 0.4rem;
+      font-weight: bold;
+    }
+
+    &__follow {
+      &--1 {
+        display: flex;
+      }
+
+      &__icon {
+        color: #03a9f4;
+        font-size: 1.8rem;
+      }
+
+      &__paragraph {
+        margin-left: 0.6rem;
+
+        &:link {
+          color: $primary-green-color;
+        }
+      }
+    }
+
+    &__got {
+      margin-top: 7.2rem;
+
+      @include respond(phone) {
+        margin-top: 3.2rem;
+      }
+
+      &__questions {
+        font-size: 2.4rem;
+        font-weight: bold;
+
+        @include respond(m-phone) {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+
+  &__line {
+    border-bottom: 0.1rem solid $black-color;
+    margin-top: 5.4rem;
+
+    @include respond(phone) {
+      margin-top: 5.4rem;
+    }
+
+    @include respond(m-phone) {
+      margin-top: 5.4rem;
+    }
+
+    @include respond(m-phone) {
+      border-bottom: 0.2rem solid $black-color;
+    }
+  }
+
+  &__copyright {
+    display: inline-flex;
+    margin-top: 2.4rem;
+
+    &__text {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-left: 0.4rem;
+
+      &:not(:last-child) {
+        margin-right: 1.2rem;
+      }
+    }
+
+    &__icon {
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.view-all {
+  &__card {
+    margin-bottom: 2.4rem;
+
+    &--1 {
+      margin: 5.6rem 0 2.4rem 0;
+    }
+  }
+
+  &__pagination {
+    display: inline-block;
+    margin: 2.4rem 0 5.6rem 0;
+
+    &__no {
+      color: $black-color;
+      font-size: 2rem;
+      margin-right: 2.5rem;
+      text-decoration: none;
+
+      &:active,
+      &:focus,
+      &:hover {
+        text-decoration: underline;
+        font-weight: bold;
+        color: $primary-green-color;
+      }
+    }
+  }
+}

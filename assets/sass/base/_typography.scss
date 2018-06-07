@@ -1,0 +1,79 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+}
+
+.main-heading {
+  font-size: 3.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.sec-heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.tet-heading {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.bio-heading {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.progress-text {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+.details {
+  font-size: $default-font-size;
+  font-weight: 600;
+
+  @include respond(s-phone) {
+    font-size: 1.2rem;
+  }
+}
+
+.paragraph {
+  font-size: $default-font-size;
+  font-weight: 400;
+
+  @include respond(phone) {
+    font-size: 1.3rem;
+  }
+
+  @include respond(m-phone) {
+    font-size: 1.2rem;
+  }
+
+  @include respond(s-phone) {
+    font-size: 1rem;
+  }
+}
+
+.download {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.officials-details {
+  font-size: 3.6rem;
+  font-weight: bold;
+
+  @include respond(m-phone) {
+    font-size: 3rem;
+  }
+}
+
+.officials-sub {
+  font-size: 3rem;
+  font-weight: bold;
+
+  @include respond(m-phone) {
+    font-size: 2.2rem;
+  }
+}

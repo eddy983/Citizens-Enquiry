@@ -1,0 +1,121 @@
+.nav-bar {
+  overflow: hidden;
+  background-color: $light-grey-color;
+
+  &__search-container {
+    float: right;
+
+    @include respond(m-phone) { 
+      transform: scale(.8);
+    }
+
+    @include respond(s-phone) { 
+      transform: scale(.7);
+    }
+    
+
+    &--button {
+      float: right;
+      padding: .7rem 1.5rem;
+      margin-top: .8rem;
+      margin-right: 1.6rem;
+      background: $primary-green-color;
+      font-size: 1.6rem;
+      border: .05rem solid $primary-green-color;
+      cursor: pointer;
+      border-top-right-radius: .8rem;
+      border-bottom-right-radius: .8rem;
+      color: $white-color;
+      box-shadow: 0 .1rem .6rem rgba(0, 0, 0, 0.5);
+
+      @include respond(m-phone) { 
+        margin-top: 1.2rem;
+        margin-right: -0.4rem;
+      }
+
+      @include respond(s-phone) { 
+        margin-top: 2.6rem;
+        margin-right: -2.4rem;
+      }
+
+      &:hover {
+        background: $primary-green-color;
+      }
+    }
+
+    &--input {
+      padding: .9rem;
+      margin-top: .8rem;
+      font-size: 1.4rem;
+      border: none;
+      border-top-left-radius: .8rem;
+      border-bottom-left-radius: .8rem;
+      box-shadow: 0 .1rem .6rem rgba(0, 0, 0, 0.5);
+
+      @include respond(m-phone) { 
+        margin-top: 1.2rem;
+      }
+
+      @include respond(s-phone) { 
+        margin-top: 2.6rem;
+      }
+    }
+  }
+
+  &__item {
+    float: right;
+    display: block;
+    color: $black-color;
+    text-align: center;
+    padding: 1.4rem 1rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    border-bottom: .4rem solid transparent;
+
+    @include respond(tab-port) { 
+      opacity: 0;
+      visibility: hidden; 
+    }
+
+    @include respond(phone) { 
+      padding: 0 1rem; 
+    }
+
+    &:hover,
+    &:focus,
+    &:active,
+    &::after {
+      color: $primary-green-color;
+      text-decoration: none;
+      border-bottom: .4rem solid $primary-green-color;
+      cursor: pointer;
+    }
+
+
+    &input[type=text] {
+      padding: .6rem;
+      margin-top: .8rem;
+      font-size: $default-font-size;
+      border: none;
+      
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .nav-bar .search-container {
+      float: none;
+    }
+    .nav-bar a,
+    .nav-bar input[type=text],
+    .nav-bar .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    
+  }
+
+}

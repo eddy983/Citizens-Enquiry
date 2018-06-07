@@ -1,0 +1,28 @@
+.header {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary, 0.8),
+      rgba($color-secondary, 0.8)
+    ),
+    url(../img/BG-image5.jpg);
+  background-position: top;
+  background-size: cover;
+  clip-path: polygon(
+    20% 0%,
+    80% 0%,
+    100% 20%,
+    100% 80%,
+    80% 100%,
+    20% 100%,
+    0% 80%,
+    0% 20%
+  );
+  height: 95vh;
+  
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

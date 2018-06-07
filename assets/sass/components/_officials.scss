@@ -1,0 +1,21 @@
+.officials {
+  &__card {
+    background-color: #fff;
+    border: 0.005rem solid #bdbdbd;
+    border-radius: 1.2rem;
+    box-shadow: 0 0.4rem 2.4rem rgba(0, 0, 0, 0.25);
+    height: 33.8rem;
+
+    @include respond(phone) {
+      height: 28.8rem;
+    }
+
+    @include respond(m-phone) {
+      height: 24.8rem;
+    }
+
+    &--1 {
+      margin-top: $first-card-vertical;
+    }
+  }
+}

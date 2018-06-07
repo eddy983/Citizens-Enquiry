@@ -1,0 +1,169 @@
+.btn {
+  background-color: $primary-green-color;
+  border: none;
+  border-radius: 0.8rem;
+  font-weight: bold;
+  outline: 0;
+  transition: all 0.2s;
+
+  &:hover {
+    color: $white-color;
+    box-shadow: 0 0.6rem 0.8rem rgba(0, 0, 0, 0.74);
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.74);
+    transform: translateY(0);
+    text-decoration: none;
+    outline: none;
+    border: none;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  &__nav {
+    &:link,
+    &:visited {
+      color: $white-color;
+      padding: 0.6rem 1.5rem;
+      float: right;
+      display: block;
+      margin: 1rem;
+      font-size: $default-font-size;
+      margin: 0.9rem 1.5rem 0.9rem 1rem;
+      outline: 0;
+
+      @include respond(m-phone) {
+        margin: 1.2rem -2.4rem 1.2rem 1rem;
+        transform: scale(0.8);
+      }
+
+      @include respond(s-phone) {
+        margin: 2.4rem -2.4rem 2.4rem 1rem;
+        transform: scale(0.7);
+      }
+    }
+  }
+
+  &__view {
+    border-radius: 2rem;
+    color: $white-color;
+    font-size: $default-font-size;
+    padding: 0.5rem 3rem;
+
+    @include respond(phone) {
+      padding: 0.5rem 2rem;
+    }
+
+    @include respond(m-phone) {
+      font-size: 1.4rem;
+      padding: 0.5rem 1.5rem;
+    }
+
+    @include respond(s-phone) {
+      font-size: 0.9rem;
+      padding: 0.5rem 1.7rem;
+    }
+  }
+
+  &__view-all {
+    background-color: $white-color;
+    border-bottom: 1px solid transparent;
+    border-radius: 0;
+    color: $black-color;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 2.8rem;
+
+    &:hover {
+      box-shadow: none;
+      border-bottom: 1px solid $primary-green-color;
+      color: $primary-green-color;
+      transform: translateY(0);
+    }
+  }
+
+  &__foot {
+    color: $white-color;
+    font-size: $default-font-size;
+    padding: 1rem 2.4rem;
+
+    @include respond(m-phone) {
+      font-size: 1.3rem;
+      padding: 1rem 0.4rem;
+    }
+  }
+
+  &__drop-down {
+    color: $white-color;
+    font-size: 2rem;
+    height: 4.6rem;
+    padding: 0.6rem;
+    width: 100%;
+
+    @include respond(phone) {
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+
+  &__propose {
+    color: $white-color;
+    font-size: 2rem;
+
+    &__cancel {
+      background-color: $white-color;
+      color: $dark-grey-color;
+      font-weight: 400;
+      margin-right: 2rem;
+      padding: 1.6rem 3.2rem;
+      transition: all 0.2s;
+
+      @include respond(s-phone) {
+        padding: 0.6rem 0.8rem;
+      }
+
+      &:hover {
+        box-shadow: none;
+        color: $red-color;
+        transform: translateY(0);
+      }
+    }
+
+    &__submit {
+      background-color: $mischka-color;
+      padding: 1.8rem 3.4rem;
+      transition: all 0.2s;
+
+      @include respond(s-phone) {
+        padding: 0.6rem 0.8rem;
+      }
+
+      &:hover {
+        background-color: $primary-green-color;
+      }
+    }
+  }
+}
+
+.drop-down {
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  height: 4.6rem;
+  width: 100%;
+  outline: 0;
+
+  @include respond(phone) {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  &:hover {
+    cursor: pointer;
+    outline: 0;
+  }
+}

@@ -1,0 +1,203 @@
+// WEBSITE GRID
+.rows {
+  max-width: $grid-width;
+  //background-color: whitesmoke;
+  margin: 0 6.7rem;
+
+  @include respond(phone) {
+    margin: 0 2rem;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+  }
+
+  @include clearfix;
+
+  [class^="col-"] {
+    //background-color: lightseagreen;
+    float: left;
+
+    &:not(:last-child) {
+      margin-right: $gutter-horizontal;
+
+      @include respond(phone) {
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  .col-1-of-2 {
+    width: calc((100% - #{$gutter-horizontal}) / 2);
+
+    @include respond(tab-port) {
+      width: 100%;
+    }
+  }
+
+  .col-1-of-3 {
+    width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+    position: relative;
+
+    @include respond(phone) {
+      width: calc((100% - 1 * 1rem) / 2);
+    }
+  }
+
+  .col-1-of-3-f {
+    width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+    position: relative;
+
+    @include respond(phone) {
+      margin-top: -6rem;
+      width: calc((100% - 1 * 1rem) / 2);
+    }
+  }
+
+  .col-1-of-3-s {
+    width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+    position: relative;
+
+    @include respond(phone) {
+      margin-top: 4rem;
+      width: calc((100% - 1 * 1rem) / 2);
+    }
+  }
+
+  .col-2-of-3 {
+    width: calc(
+      2 * ((100% - 2 * #{$gutter-horizontal}) / 3) + #{$gutter-horizontal}
+    );
+  }
+
+  .col-1-of-4 {
+    width: calc((100% - 3 * #{$gutter-horizontal}) / 4);
+  }
+
+  .col-2-of-4 {
+    width: calc(
+      2 * ((100% - 3 * #{$gutter-horizontal}) / 4) + #{$gutter-horizontal}
+    );
+  }
+
+  .col-3-of-4 {
+    width: calc(
+      3 * ((100% - 3 * #{$gutter-horizontal}) / 4) + (2 * #{$gutter-horizontal})
+    );
+  }
+
+  // CARD GRID CALC
+  [class^="c-col-"] {
+    //background-color: lightseagreen;
+    float: left;
+
+    &:not(:last-child) {
+      margin-right: $card-gutter-horizontal;
+    }
+  }
+
+  .c-col-1-of-4 {
+    width: calc((100% - 3 * #{$card-gutter-horizontal}) / 4);
+    float: left;
+  }
+
+  .c-col-3-of-4 {
+    width: calc(
+      3 * ((100% - 3 * #{$card-gutter-horizontal}) / 4) +
+        (2 * #{$gutter-horizontal})
+    );
+    float: left;
+  }
+}
+
+.b-rows {
+  max-width: $grid-width;
+  //background-color: whitesmoke;
+  margin: 0 6.7rem;
+  margin-bottom: 5.6rem;
+
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+  }
+
+  @include clearfix;
+
+  [class^="col-"] {
+    //background-color: lightseagreen;
+    float: left;
+
+    &:not(:last-child) {
+      margin-right: $gutter-horizontal;
+    }
+  }
+
+  .b-col-1-of-2 {
+    width: calc((100% - #{$gutter-horizontal}) / 2);
+  }
+
+  .b-col-1-of-3 {
+    width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+  }
+
+  .b-col-2-of-3 {
+    width: calc(
+      2 * ((100% - 2 * #{$gutter-horizontal}) / 3) + #{$gutter-horizontal}
+    );
+  }
+
+  .b-col-1-of-4 {
+    width: calc((100% - 3 * #{$gutter-horizontal}) / 4);
+  }
+
+  .b-col-2-of-4 {
+    width: calc(
+      2 * ((100% - 3 * #{$gutter-horizontal}) / 4) + #{$gutter-horizontal}
+    );
+  }
+
+  .b-col-3-of-4 {
+    width: calc(
+      3 * ((100% - 3 * #{$gutter-horizontal}) / 4) + (2 * #{$gutter-horizontal})
+    );
+  }
+}
+
+// CARD GRID
+.c-rows {
+  max-width: $grid-width;
+  //background-color: whitesmoke;
+  margin: 0 6.7rem;
+
+  @include respond(m-phone) {
+    margin: 0 2rem;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: $card-gutter-vertical;
+  }
+
+  @include clearfix;
+
+  // CARD GRID CALC
+  [class^="c-col-"] {
+    //background-color: lightseagreen;
+    float: left;
+
+    &:not(:last-child) {
+      margin-right: $card-gutter-horizontal;
+    }
+  }
+
+  .c-col-1-of-4 {
+    width: calc((100% - 3 * #{$card-gutter-horizontal}) / 4);
+    float: left;
+  }
+
+  .c-col-3-of-4 {
+    width: calc(
+      3 * ((100% - 3 * #{$card-gutter-horizontal}) / 4) +
+        (2 * #{$card-gutter-horizontal})
+    );
+    float: left;
+  }
+}

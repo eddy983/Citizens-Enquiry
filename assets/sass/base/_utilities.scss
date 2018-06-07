@@ -1,0 +1,171 @@
+.u-text-center {
+  text-align: center;
+}
+
+.u-margin-big {
+  margin: 5.2rem 0;
+
+  @include respond(tab-port) {
+    margin: 3.2rem 0;
+  }
+
+  @include respond(m-phone) {
+    margin: -3.8rem 0;
+  }
+}
+
+.u-margin-big-bio {
+  margin: 5.2rem 0;
+
+  @include respond(tab-port) {
+    margin: -4.2rem 0;
+  }
+
+  @include respond(m-phone) {
+    margin: -8.8rem 0;
+  }
+
+  @include respond(s-phone) {
+    margin: -13.8rem 0;
+  }
+}
+
+.u-margin-heading {
+  margin: 5.2rem 0;
+
+  @include respond(tab-land) {
+    margin: 3.2rem 0 3.2rem 0;
+  }
+
+  @include respond(tab-port) {
+    margin: -47.8rem 0 3.2rem 0;
+  }
+
+  @include respond(phone) {
+    margin: -48.8rem 0 3.2rem 0;
+  }
+
+  @include respond(m-phone) {
+    margin: -49.8rem 0 3.2rem 0;
+  }
+}
+
+.u-margin-details {
+  margin-top: 1.2rem;
+
+  @include respond(phone) {
+    margin-top: 0.8rem;
+  }
+
+  @include respond(m-phone) {
+    margin-top: 1.2rem;
+  }
+
+  @include respond(s-phone) {
+    margin-top: 2.5rem;
+  }
+
+  @include respond(s-phone) {
+    margin-top: 0.5rem;
+  }
+}
+
+.u-margin-officials {
+  margin-top: 2.4rem;
+}
+
+.u-margin-officials-title {
+  margin-top: 3.6rem;
+
+  @include respond(phone) {
+    margin-top: 6.6rem;
+  }
+
+  @include respond(m-phone) {
+    margin-top: 2rem;
+  }
+}
+
+.u-margin-officials-left {
+  margin-left: 1.2rem;
+}
+
+.u-margin-officials-title-of {
+  margin-top: 3.6rem;
+
+  @include respond(phone) {
+    margin-top: 2.6rem;
+  }
+
+  @include respond(m-phone) {
+    margin-top: 2rem;
+  }
+
+  @include respond(sx-phone) {
+    margin-top: 1rem;
+  }
+}
+
+.u-margin-question-title {
+  margin: 3.6rem 0 1.2rem 1.2rem;
+
+  @include respond(phone) {
+    margin: 1rem 0 1.2rem 1.2rem;
+  }
+
+  @include respond(m-phone) {
+    margin: 1.4rem 0 1.2rem 1.2rem;
+  }
+}
+
+.u-margin-question {
+  margin: 0 0 0 1.2rem;
+}
+
+.u-margin-paragraph-right {
+  margin-right: 2.8rem;
+}
+
+.u-margin-card {
+  margin-top: 22rem;
+
+  @include respond(phone) {
+    margin-top: 19rem;
+  }
+
+  @include respond(m-phone) {
+    margin-top: 11.5rem;
+  }
+}
+
+.u-margin-card-ph {
+  margin-top: 22rem;
+
+  @include respond(phone) {
+    margin-top: 14.5rem;
+  }
+
+  @include respond(m-phone) {
+    margin-top: 11.5rem;
+  }
+}
+
+.u-margin-view {
+  margin: 4.2rem 0;
+}
+
+.u-margin-view-of {
+  margin: 4.2rem 0;
+
+  @include respond(phone) {
+    margin: 0.2rem 0;
+  }
+
+  @include respond(m-phone) {
+    margin: -3.8rem 0;
+  }
+
+  @include respond(s-phone) {
+    margin: -3.8rem 0 -3.8rem 1.8rem;
+  }
+}

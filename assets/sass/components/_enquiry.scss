@@ -1,0 +1,213 @@
+.enquiry {
+  &__card {
+    background-color: #fff;
+    border: 0.005rem solid #bdbdbd;
+    border-radius: 1.2rem;
+    box-shadow: 0 0.4rem 2.4rem rgba(0, 0, 0, 0.25);
+    height: 40rem;
+    padding: 1.2rem 4rem 1.2rem 1.2rem;
+
+    @include respond(phone) {
+      height: 34rem;
+    }
+
+    @include respond(m-phone) {
+      height: 31rem;
+      padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+    }
+  }
+}
+
+.question {
+  position: relative;
+
+  &--of {
+    position: relative;
+  }
+
+  &--bio {
+    position: relative;
+  }
+
+  &__shape {
+    background-color: transparent;
+    border-radius: 50%;
+    height: 17.2rem;
+    left: 0;
+    margin: auto auto;
+    position: absolute;
+    right: 0;
+    top: 1.8rem;
+    width: 17.2rem;
+
+    @include respond(phone) {
+      left: -1.6rem;
+      top: 0.8rem;
+    }
+
+    @include respond(m-phone) {
+      left: -1.9rem;
+      top: 0.8rem;
+    }
+
+    @include respond(s-phone) {
+      left: -2.9rem;
+      top: 0.6rem;
+    }
+
+    &--of {
+      height: 22rem;
+      width: 22rem;
+
+      @include respond(m-phone) {
+        left: 0.1rem;
+      }
+    }
+
+    &--bio {
+      height: 43.6rem;
+      width: 43.6rem;
+    }
+
+    &__img {
+      backface-visibility: hidden;
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
+
+      @include respond(phone) {
+        height: 70%;
+        width: 70%;
+      }
+
+      @include respond(m-phone) {
+        height: 50%;
+        width: 50%;
+      }
+
+      &--of {
+        height: 22rem;
+        top: 3rem;
+        object-fit: cover;
+        width: 22rem;
+
+        @include respond(phone) {
+          height: 17rem;
+          width: 17rem;
+        }
+
+        @include respond(m-phone) {
+          height: 14rem;
+          left: 0;
+          top: 2.4rem;
+          width: 14rem;
+        }
+
+        @include respond(s-phone) {
+          left: 0.4rem;
+        }
+
+        @include respond(sx-phone) {
+          height: 12rem;
+          width: 12rem;
+        }
+      }
+
+      &--bio {
+        height: 43.6rem;
+        top: 3.6rem;
+        object-fit: cover;
+        width: 43.6rem;
+
+        @include respond(tab-port) {
+          height: 34.6rem;
+          width: 34.6rem;
+        }
+
+        @include respond(m-phone) {
+          height: 30.6rem;
+          width: 30.6rem;
+        }
+
+        @include respond(s-phone) {
+          height: 26.6rem;
+          width: 26.6rem;
+        }
+      }
+    }
+  }
+
+  &--box {
+    border: 0.1rem solid $mischka-color;
+    border-radius: 1.2rem;
+    height: 15rem;
+    margin-top: 0.4rem;
+    padding: 1.2rem;
+    width: 100%;
+
+    @include respond(phone) {
+      height: 16rem;
+    }
+
+    @include respond(desktop) {
+      width: 100%;
+    }
+  }
+}
+
+.document {
+  width: 100%;
+  margin-top: 1.2rem;
+
+  @include respond(m-phone) {
+    margin-top: 0.8rem;
+  }
+
+  @include respond(phone) {
+    display: inline-block;
+  }
+
+  &__download {
+    color: $black-color;
+    margin-left: 2rem;
+
+    &:hover {
+      color: $primary-green-color;
+      text-decoration: none;
+    }
+  }
+
+  &__text {
+    display: inline-block;
+  }
+
+  &__like {
+    display: inline-flex;
+    float: right;
+
+    &__icon--thumbs-up {
+      color: $light-green-color;
+      font-size: 2rem;
+      margin-right: 0.8rem;
+    }
+
+    &--box {
+      border: 0.5px solid #bdbdbd;
+      border-radius: 0.4rem;
+      box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.25);
+      height: 2rem;
+      margin-right: 2rem;
+      position: relative;
+      width: 5.4rem;
+    }
+
+    &--text {
+      font-size: 1.2rem;
+      font-weight: bold;
+      left: 0;
+      position: absolute;
+      top: 0;
+      margin: 0.2rem 0 0 1.3rem;
+    }
+  }
+}

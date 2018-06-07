@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- Google Font -->
+   <link href="https://fonts.googleapis.com/css?family=Quicksand:100,300,400,700,900" rel="stylesheet">
+   <!-- Main stylesheet -->
+   <link rel="stylesheet" href="assets/css/main.css">
+
+  <!-- Optional theme -->
+  <title>Citizen's Enquiry</title>
+</head>
+
+<body>
+
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+    <label for="navi-toggle" class="navigation__btn">
+      <span class="navigation__icon">
+        &nbsp;
+      </span>
+    </label>
+
+    <div class="navigation__background">&nbsp;</div>
+
+    <div class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Home</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">officials List</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">About Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <header>
+    <!-- Navigation Bar -->
+    <div class="nav-bar">
+      <div class="nav-bar__search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search" class="nav-bar__search-container--input">
+          <button type="submit" class="nav-bar__search-container--button">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+      </div>
+      <a href="#popup" class="btn btn__nav">Propose Question</a>
+      <a href="about-us.html" class="nav-bar__item">About Us</a>
+      <a href="officials-list.html" class="nav-bar__item">Officials List</a>
+      <a href="index.html" class="nav-bar__item">Home</a>
+    </div>
+  </header>
+
+  <section class="section__bio">
+    <div class="bio">
+      <div class="bio__header">
+        <div class="rows">
+          <div class="col-1-of-2">
+            <div class="question--bio">
+              <div class="question__shape--bio">
+                <img src="assets/img/Lai-mohammed5-tile.jpg" alt="Lai Mohammed" class="question__shape question__shape__img--bio">
+              </div>
+            </div>
+            <div class="u-text-center u-margin-big-bio">
+              <h2 class="sec-heading u-margin-officials">Lai Mohammed</h2>
+              <h2 class="sec-heading u-margin-officials">Minister of Information & Culture</h2>
+              <h2 class="sec-heading u-margin-officials">Politics</h2>
+            </div>
+          </div>
+          <div class="col-1-of-2">
+            <div class="bio__card bio__card__score">
+              <h2 class="progress-text">Answered</h2>
+              <div class="progress">
+                <div class="progress-bar progress-bar--a" role="progressbar" aria-valuenow="45.4" aria-valuemin="0" aria-valuemax="100" style="width:45.4%">
+                  45.4% (5)
+                </div>
+              </div>
+              <h2 class="progress-text u-margin-officials">Pending</h2>
+              <div class="progress">
+                <div class="progress-bar progress-bar--p" role="progressbar" aria-valuenow="27.3" aria-valuemin="0" aria-valuemax="100" style="width:27.3%">
+                  27.3% (3)
+                </div>
+              </div>
+              <h2 class="progress-text u-margin-officials">Rejected</h2>
+              <div class="progress">
+                <div class="progress-bar progress-bar--r" role="progressbar" aria-valuenow="27.3" aria-valuemin="0" aria-valuemax="100" style="width:27.3%">
+                  27.3% (3)
+                </div>
+              </div>
+              <h2 class="progress-text u-margin-officials">Total Questions Asked:11</h2>
+            </div>
+            <div class="bio__card">
+              <p class="paragraph">
+                <span class="bio-heading">Brief Bio:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aliquam dicta est laudantium,
+                mollitia officiis molestiae fugit excepturi harum, consectetur numquam! Maxime temporibus saepe, vel beatae
+                obcaecati minus eligendi sunt! Lorem, ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit
+                amet. Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bio__line"></div>
+    </div>
+
+  </section>
+
+  <section class="section_questions">
+    <div class="b-rows">
+      <button class="accordion sec-heading">
+        <span class="accordion__no">01</span>Question
+        <i class="fa fa-angle-down accordion__icon"></i>
+      </button>
+      <div class="panel">
+        <div class="card">
+          <div class="u-margin-question">
+            <p class="bio-heading">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero eligendi ullam consequatur deleniti delectus nisi!
+            </p>
+          </div>
+          <div class="question--box">
+            <h3 class="sec-heading">
+              Answer
+            </h3>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quod dolorem quae at nulla. Atque, repudiandae. Lorem
+              ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="document">
+            <a href="#" class="document__download download">
+              <i class="fa fa-file"></i>
+              <p class="document__text ">document</p>
+            </a>
+            <div class="document__like">
+              <div class="document__like document__like__icon--thumbs-up">
+                <i class="fa fa-thumbs-up "></i>
+              </div>
+              <div class="document__like document__like--box">
+                <p class="document__like document__like--text">1234</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="b-rows">
+      <button class="accordion sec-heading">
+        <span class="accordion__no">02</span>Question
+        <i class="fa fa-angle-down accordion__icon"></i>
+      </button>
+      <div class="panel">
+        <div class="card">
+          <div class="u-margin-question">
+            <p class="bio-heading">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero eligendi ullam consequatur deleniti delectus nisi!
+            </p>
+          </div>
+          <div class="question--box">
+            <h3 class="sec-heading">
+              Answer
+            </h3>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quod dolorem quae at nulla. Atque, repudiandae. Lorem
+              ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="document">
+            <a href="#" class="document__download download">
+              <i class="fa fa-file"></i>
+              <p class="document__text ">document</p>
+            </a>
+            <div class="document__like">
+              <div class="document__like document__like__icon--thumbs-up">
+                <i class="fa fa-thumbs-up "></i>
+              </div>
+              <div class="document__like document__like--box">
+                <p class="document__like document__like--text">1234</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="b-rows">
+      <button class="accordion sec-heading">
+        <span class="accordion__no">03</span>Question
+        <i class="fa fa-angle-down accordion__icon"></i>
+      </button>
+      <div class="panel">
+        <div class="card">
+          <div class="u-margin-question">
+            <p class="bio-heading">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero eligendi ullam consequatur deleniti delectus nisi!
+            </p>
+          </div>
+          <div class="question--box">
+            <h3 class="sec-heading">
+              Answer
+            </h3>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quod dolorem quae at nulla. Atque, repudiandae. Lorem
+              ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="document">
+            <a href="#" class="document__download download">
+              <i class="fa fa-file"></i>
+              <p class="document__text ">document</p>
+            </a>
+            <div class="document__like">
+              <div class="document__like document__like__icon--thumbs-up">
+                <i class="fa fa-thumbs-up "></i>
+              </div>
+              <div class="document__like document__like--box">
+                <p class="document__like document__like--text">1234</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="b-rows">
+      <button class="accordion sec-heading">
+        <span class="accordion__no">04</span>Question
+        <i class="fa fa-angle-down accordion__icon"></i>
+      </button>
+      <div class="panel">
+        <div class="card">
+          <div class="u-margin-question">
+            <p class="bio-heading">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero eligendi ullam consequatur deleniti delectus nisi!
+            </p>
+          </div>
+          <div class="question--box">
+            <h3 class="sec-heading">
+              Answer
+            </h3>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quod dolorem quae at nulla. Atque, repudiandae. Lorem
+              ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="document">
+            <a href="#" class="document__download download">
+              <i class="fa fa-file"></i>
+              <p class="document__text ">document</p>
+            </a>
+            <div class="document__like">
+              <div class="document__like document__like__icon--thumbs-up">
+                <i class="fa fa-thumbs-up "></i>
+              </div>
+              <div class="document__like document__like--box">
+                <p class="document__like document__like--text">1234</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="b-rows">
+      <button class="accordion sec-heading">
+        <span class="accordion__no">05</span>Question
+        <i class="fa fa-angle-down accordion__icon"></i>
+      </button>
+      <div class="panel">
+        <div class="card card--l">
+          <div class="u-margin-question">
+            <p class="bio-heading">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero eligendi ullam consequatur deleniti delectus nisi!
+            </p>
+          </div>
+          <div class="question--box">
+            <h3 class="sec-heading">
+              Answer
+            </h3>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quod dolorem quae at nulla. Atque, repudiandae. Lorem
+              ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="document">
+            <a href="#" class="document__download download">
+              <i class="fa fa-file"></i>
+              <p class="document__text ">document</p>
+            </a>
+            <div class="document__like">
+              <div class="document__like document__like__icon--thumbs-up">
+                <i class="fa fa-thumbs-up "></i>
+              </div>
+              <div class="document__like document__like--box">
+                <p class="document__like document__like--text">1234</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- footer -->
+  <footer>
+    <!-- Background -->
+    <div class="footer footer__box">
+      <!-- <img src="assets/img/Grey-bg8.jpg" alt="Background" class="footer__box footer__box--img"> -->
+
+      <div class="footer footer__btns">
+        <div class="rows">
+          <div class="col-1-of-3">
+            <div class="drop-down">
+              <form>
+                <select class="drop-down drop-down__btn">
+                  <option value="sector">Sector</option>
+                  <option value="banking">Banking</option>
+                  <option value="politics">Politics</option>
+                  <option value="public">Public Service</option>
+                </select>
+              </form>
+            </div>
+            <div class="footer__text">
+              <p class="footer__text__paragraph ">Contact Us</p>
+              <p class="footer__text__paragraph ">Email Address:</p>
+              <p class="footer__text__paragraph ">Phone No:</p>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="drop-down">
+              <form>
+                <select class="drop-down drop-down__btn">
+                  <option value="Public-H">Public Hearing No</option>
+                  <option value="girl">N.E.P.A</option>
+                  <option value="ball">Politics</option>
+                  <option value="boy">Hopitals</option>
+                </select>
+              </form>
+            </div>
+            <div class="footer__text">
+              <p class="footer__text__paragraph ">Follow Us</p>
+              <div class="footer__text__follow--1">
+                <i class="fa fa-twitter footer__text__follow__icon"></i>
+                <p class="footer__text__paragraph footer__text__follow__paragraph">@Civic media lab</p>
+              </div>
+              <div class="footer__text__follow--1">
+                <i class="fa fa-twitter footer__text__follow__icon"></i>
+                <p class="footer__text__paragraph footer__text__follow__paragraph">@Sahara reporters</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <a class="btn btn__drop-down">Search</a>
+            <div class="footer__text">
+              <p class="footer__text__paragraph ">Join The Tags</p>
+              <div class="footer__text__follow--1">
+                <i class="fa fa-twitter footer__text__follow__icon"></i>
+                <p class="footer__text__paragraph footer__text__follow__paragraph">#Civic media lab</p>
+              </div>
+              <div class="footer__text__follow--1">
+                <i class="fa fa-twitter footer__text__follow__icon"></i>
+                <p class="footer__text__paragraph footer__text__follow__paragraph">#Sahara reporters</p>
+              </div>
+              <div class="footer__text__follow--1">
+                <i class="fa fa-twitter footer__text__follow__icon"></i>
+                <p class="footer__text__paragraph footer__text__follow__paragraph">#askquestions</p>
+              </div>
+              <div class="footer__text__got">
+                <p class="footer__text__got__questions">Got Questions?</p>
+                <a class="btn btn__foot">Propose Question</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__line"></div>
+      <div class="u-text-center">
+        <div class="footer__copyright">
+          <p class="footer__copyright__text">Citizen’s Equiry</p>
+          <i class="fa fa-copyright footer__copyright__icon"></i>
+          <p class="footer__copyright__text">All rights reserved, 2018</p>
+        </div>
+      </div>
+
+
+    </div>
+
+  </footer>
+
+  <!-- Pop-Up -->
+  <div class="popup" id="popup">
+    <div class="popup__content">
+      <a href="#" class="popup__close">&times;</a>
+      <div class="popup__form">
+        <input type="text" class="popup__input" placeholder="Full Name" id="name" required>
+        <label for="name" class="popup__label">Full Name</label>
+      </div>
+
+      <div class="popup__form">
+        <input type="email" class="popup__input" placeholder="Email Address" id="email" required>
+        <label for="email" class="popup__label">Email Address</label>
+      </div>
+
+      <div class="popup__form">
+        <textarea rows="8" cols="50" name="comment" form="questionsform" class="popup__input popup__input_propose">Propose Question Here...</textarea>
+      </div>
+
+      <div class="propose__btns">
+        <button class="btn btn__propose btn__propose__cancel">Cancel</button>
+        <button class="btn btn__propose btn__propose__submit">Submit</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Popper Js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <!-- Bootstrap Js -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+  </script>
+
+</body>
+
+</html>
