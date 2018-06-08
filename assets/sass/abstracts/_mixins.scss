@@ -38,6 +38,16 @@ ORDER: Base + typography > general layout + grid > page layout > components
       @content;
     } // 400px in em
   }
+  @if $breakpoint == sam-phoneh {
+    @media (max-height: 51.4375) {
+      @content;
+    } // 823px in em
+  }
+  @if $breakpoint == sam-phone {
+    @media (max-width: 25.6875em) {
+      @content;
+    } // 411px in em
+  }
   @if $breakpoint == m-phone {
     @media (max-width: 31.25em) {
       @content;
@@ -69,3 +79,6 @@ ORDER: Base + typography > general layout + grid > page layout > components
     } // 1800px in em
   }
 }
+
+
+

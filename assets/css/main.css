@@ -799,7 +799,7 @@ body {
   background-image: url(../../../assets/img/Grey-bg8.jpg);
   background-position: bottom;
   background-size: cover;
-  height: 80vh; }
+  height: 74vh; }
   @media (max-width: 56.25em) {
     .footer {
       height: 64vh; } }
@@ -808,19 +808,22 @@ body {
       height: 40vh; } }
   @media (max-width: 31.25em) {
     .footer {
-      height: 36vh; } }
+      height: 45vh; } }
+  @media (max-height: 51.4375) {
+    .footer {
+      height: 35vh; } }
+  @media (max-width: 25.6875em) {
+    .footer {
+      height: 40vh; } }
+  @media (max-width: 25em) {
+    .footer {
+      height: 45vh; } }
+  @media (max-width: 20em) {
+    .footer {
+      height: 50vh; } }
   .footer__box {
     background-color: lightgray;
     padding-top: 3rem; }
-    @media (max-width: 56.25em) {
-      .footer__box {
-        height: 64vh; } }
-    @media (max-width: 37.5em) {
-      .footer__box {
-        height: 40vh; } }
-    @media (max-width: 31.25em) {
-      .footer__box {
-        height: 36vh; } }
     .footer__box--img {
       height: 100%;
       width: 100%; }
