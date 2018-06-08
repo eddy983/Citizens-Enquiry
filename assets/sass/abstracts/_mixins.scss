@@ -33,20 +33,30 @@ ORDER: Base + typography > general layout + grid > page layout > components
       @content;
     } // 320px in em
   }
+  @if $breakpoint == samx-phone {
+    @media (max-width: 22.5) {
+      @content;
+    } // 360px in em
+  }
+  @if $breakpoint == x-phone {
+    @media (max-width: 23.4375em) {
+      @content;
+    } // 375px in em
+  }
   @if $breakpoint == s-phone {
     @media (max-width: 25em) {
       @content;
     } // 400px in em
   }
-  @if $breakpoint == sam-phoneh {
-    @media (max-height: 51.4375) {
-      @content;
-    } // 823px in em
-  }
   @if $breakpoint == sam-phone {
     @media (max-width: 25.6875em) {
       @content;
     } // 411px in em
+  }
+  @if $breakpoint == 6x-phone {
+    @media (max-width: 25.875em) {
+      @content;
+    } // 414px in em
   }
   @if $breakpoint == m-phone {
     @media (max-width: 31.25em) {

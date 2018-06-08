@@ -16,8 +16,8 @@
     height: 45vh;
   }
 
-  @include respond(sam-phoneh) {  
-    height: 35vh;
+  @include respond(6x-phone) {  
+    height: 38vh;
   }
 
   @include respond(sam-phone) {  
@@ -26,6 +26,14 @@
 
   @include respond(s-phone) {  
     height: 45vh;
+  }
+
+  @include respond(x-phone) {  
+    height: 36vh;
+  }
+
+  @include respond(samx-phone) {  
+    height: 44vh;
   }
 
   @include respond(sx-phone) {  
