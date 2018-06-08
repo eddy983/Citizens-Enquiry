@@ -2,9 +2,23 @@
   background-image: url(../../../assets/img/Grey-bg8.jpg);
   background-position: bottom;
   background-size: cover;
-  height: 74vh;
+  height: 80vh;
+
+  @include respond(tab-port) {
+    height: 64vh;
+  }
+
+  @include respond(phone) {
+    height: 40vh;
+  }
+
+  @include respond(m-phone) {  
+    height: 36vh;
+  }
+
   &__box {
     background-color: lightgray;
+    padding-top: 3rem;
 
     @include respond(tab-port) {
       height: 64vh;
@@ -23,10 +37,6 @@
       height: 100%;
       width: 100%;
     }
-  }
-
-  &__btns {
-    padding-top: 3.6rem;
   }
 
   &__text {

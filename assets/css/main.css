@@ -799,9 +799,19 @@ body {
   background-image: url(../../../assets/img/Grey-bg8.jpg);
   background-position: bottom;
   background-size: cover;
-  height: 74vh; }
+  height: 80vh; }
+  @media (max-width: 56.25em) {
+    .footer {
+      height: 64vh; } }
+  @media (max-width: 37.5em) {
+    .footer {
+      height: 40vh; } }
+  @media (max-width: 31.25em) {
+    .footer {
+      height: 36vh; } }
   .footer__box {
-    background-color: lightgray; }
+    background-color: lightgray;
+    padding-top: 3rem; }
     @media (max-width: 56.25em) {
       .footer__box {
         height: 64vh; } }
@@ -814,8 +824,6 @@ body {
     .footer__box--img {
       height: 100%;
       width: 100%; }
-  .footer__btns {
-    padding-top: 3.6rem; }
   .footer__text {
     margin-top: 4rem; }
     @media (max-width: 37.5em) {
