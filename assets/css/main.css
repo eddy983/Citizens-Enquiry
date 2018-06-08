@@ -801,7 +801,7 @@ body {
   background-size: cover; }
   .footer__box {
     background-color: lightgray;
-    height: 70vh; }
+    height: 72vh; }
     @media (max-width: 56.25em) {
       .footer__box {
         height: 64vh; } }

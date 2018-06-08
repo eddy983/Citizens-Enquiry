@@ -5,7 +5,7 @@
 
   &__box {
     background-color: lightgray;
-    height: 70vh;
+    height: 72vh;
 
     @include respond(tab-port) {
       height: 64vh;
