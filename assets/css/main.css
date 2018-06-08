@@ -821,7 +821,7 @@ body {
   @media (max-width: 23.4375em) {
     .footer {
       height: 36vh; } }
-  @media (max-width: 22.5) {
+  @media (max-width: 22.5em) {
     .footer {
       height: 44vh; } }
   @media (max-width: 20em) {
