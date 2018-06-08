@@ -796,12 +796,12 @@ body {
       width: 19.8rem; } }
 
 .footer {
-  background-image: url(../../../assets/img/Greybg1.jpg);
+  background-image: url(../../../assets/img/Grey-bg8.jpg);
   background-position: bottom;
-  background-size: cover; }
+  background-size: cover;
+  height: 74vh; }
   .footer__box {
-    background-color: lightgray;
-    height: 80vh; }
+    background-color: lightgray; }
     @media (max-width: 56.25em) {
       .footer__box {
         height: 64vh; } }

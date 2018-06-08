@@ -1,11 +1,10 @@
 .footer {
-  background-image: url(../../../assets/img/Greybg1.jpg);
+  background-image: url(../../../assets/img/Grey-bg8.jpg);
   background-position: bottom;
   background-size: cover;
-
+  height: 74vh;
   &__box {
     background-color: lightgray;
-    height: 80vh;
 
     @include respond(tab-port) {
       height: 64vh;
