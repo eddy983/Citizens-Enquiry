@@ -1060,7 +1060,7 @@ body {
     left: 62rem;
     list-style: none;
     position: fixed;
-    top: 8%;
+    top: 0;
     text-align: center;
     transform: translate(-66%, 0%); }
     @media (max-width: 37.5em) {
