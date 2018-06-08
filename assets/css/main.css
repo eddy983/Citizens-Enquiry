@@ -812,6 +812,9 @@ body {
   @media (max-width: 25.875em) {
     .footer {
       height: 38vh; } }
+  @media (max-width: 22.5em) {
+    .footer {
+      height: 40vh; } }
   @media (max-width: 25.6875em) {
     .footer {
       height: 40vh; } }
@@ -822,6 +825,9 @@ body {
     .footer {
       height: 36vh; } }
   @media (max-width: 22.5em) {
+    .footer {
+      height: 44vh; } }
+  @media (max-width: 25.6875em) {
     .footer {
       height: 44vh; } }
   @media (max-width: 20em) {
