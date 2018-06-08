@@ -1,10 +1,11 @@
 .footer {
+  background-image: url(../../../assets/img/Greybg1.jpg);
+  background-position: bottom;
+  background-size: cover;
+
   &__box {
-    //background-color: lightgray;
-    background-image: url(../../../assets/img/Grey-bg8.jpg);
-    background-position: bottom;
-    background-size: cover;
-    height: 82vh;
+    background-color: lightgray;
+    height: 70vh;
 
     @include respond(tab-port) {
       height: 64vh;
@@ -14,7 +15,7 @@
       height: 40vh;
     }
 
-    @include respond(m-phone) {
+    @include respond(m-phone) { 
       height: 36vh;
     }
 

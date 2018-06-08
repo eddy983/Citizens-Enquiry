@@ -795,82 +795,80 @@ body {
     .propose__btns {
       width: 19.8rem; } }
 
-.footer__box {
-  background-image: url(../../../assets/img/Grey-bg8.jpg);
+.footer {
+  background-image: url(../../../assets/img/Greybg1.jpg);
   background-position: bottom;
-  background-size: cover;
-  height: 82vh; }
-  @media (max-width: 56.25em) {
-    .footer__box {
-      height: 64vh; } }
-  @media (max-width: 37.5em) {
-    .footer__box {
-      height: 40vh; } }
-  @media (max-width: 31.25em) {
-    .footer__box {
-      height: 36vh; } }
-  .footer__box--img {
-    height: 100%;
-    width: 100%; }
-
-.footer__btns {
-  padding-top: 3.6rem; }
-
-.footer__text {
-  margin-top: 4rem; }
-  @media (max-width: 37.5em) {
-    .footer__text {
-      margin-top: -5rem; } }
-  .footer__text__paragraph {
-    font-size: 1.3rem;
-    margin-bottom: 0.4rem;
-    font-weight: bold; }
-  .footer__text__follow--1 {
-    display: flex; }
-  .footer__text__follow__icon {
-    color: #03a9f4;
-    font-size: 1.8rem; }
-  .footer__text__follow__paragraph {
-    margin-left: 0.6rem; }
-    .footer__text__follow__paragraph:link {
-      color: #34675C !important; }
-  .footer__text__got {
-    margin-top: 7.2rem; }
+  background-size: cover; }
+  .footer__box {
+    background-color: lightgray;
+    height: 70vh; }
+    @media (max-width: 56.25em) {
+      .footer__box {
+        height: 64vh; } }
     @media (max-width: 37.5em) {
-      .footer__text__got {
-        margin-top: 3.2rem; } }
-    .footer__text__got__questions {
-      font-size: 2.4rem;
+      .footer__box {
+        height: 40vh; } }
+    @media (max-width: 31.25em) {
+      .footer__box {
+        height: 36vh; } }
+    .footer__box--img {
+      height: 100%;
+      width: 100%; }
+  .footer__btns {
+    padding-top: 3.6rem; }
+  .footer__text {
+    margin-top: 4rem; }
+    @media (max-width: 37.5em) {
+      .footer__text {
+        margin-top: -5rem; } }
+    .footer__text__paragraph {
+      font-size: 1.3rem;
+      margin-bottom: 0.4rem;
       font-weight: bold; }
-      @media (max-width: 31.25em) {
-        .footer__text__got__questions {
-          font-size: 2rem; } }
-
-.footer__line {
-  border-bottom: 0.1rem solid #000000;
-  margin-top: 5.4rem; }
-  @media (max-width: 37.5em) {
-    .footer__line {
-      margin-top: 5.4rem; } }
-  @media (max-width: 31.25em) {
-    .footer__line {
-      margin-top: 5.4rem; } }
-  @media (max-width: 31.25em) {
-    .footer__line {
-      border-bottom: 0.2rem solid #000000; } }
-
-.footer__copyright {
-  display: inline-flex;
-  margin-top: 2.4rem; }
-  .footer__copyright__text {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-left: 0.4rem; }
-    .footer__copyright__text:not(:last-child) {
-      margin-right: 1.2rem; }
-  .footer__copyright__icon {
-    font-size: 1.4rem;
-    font-weight: bold; }
+    .footer__text__follow--1 {
+      display: flex; }
+    .footer__text__follow__icon {
+      color: #03a9f4;
+      font-size: 1.8rem; }
+    .footer__text__follow__paragraph {
+      margin-left: 0.6rem; }
+      .footer__text__follow__paragraph:link {
+        color: #34675C !important; }
+    .footer__text__got {
+      margin-top: 7.2rem; }
+      @media (max-width: 37.5em) {
+        .footer__text__got {
+          margin-top: 3.2rem; } }
+      .footer__text__got__questions {
+        font-size: 2.4rem;
+        font-weight: bold; }
+        @media (max-width: 31.25em) {
+          .footer__text__got__questions {
+            font-size: 2rem; } }
+  .footer__line {
+    border-bottom: 0.1rem solid #000000;
+    margin-top: 5.4rem; }
+    @media (max-width: 37.5em) {
+      .footer__line {
+        margin-top: 5.4rem; } }
+    @media (max-width: 31.25em) {
+      .footer__line {
+        margin-top: 5.4rem; } }
+    @media (max-width: 31.25em) {
+      .footer__line {
+        border-bottom: 0.2rem solid #000000; } }
+  .footer__copyright {
+    display: inline-flex;
+    margin-top: 2.4rem; }
+    .footer__copyright__text {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-left: 0.4rem; }
+      .footer__copyright__text:not(:last-child) {
+        margin-right: 1.2rem; }
+    .footer__copyright__icon {
+      font-size: 1.4rem;
+      font-weight: bold; }
 
 .rows {
   max-width: 144.6rem;
