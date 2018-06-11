@@ -9,7 +9,7 @@
     position: relative;
 
     @include respond(tab-port) {
-      height: 28.6rem;
+      height: 30.6rem; 
     }
 
     @include respond(sx-phone) {

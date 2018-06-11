@@ -88,6 +88,11 @@
 
 .u-margin-officials-left {
   margin-left: 1.2rem;
+
+  @include respond(sam-phone) {  
+    margin-left:  2.2rem;
+  }
+
 }
 
 .u-margin-officials-title-of {

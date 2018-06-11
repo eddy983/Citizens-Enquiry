@@ -87,6 +87,12 @@ body {
 .bio-heading {
   font-size: 2rem;
   font-weight: 600; }
+  @media (max-width: 25.875em) {
+    .bio-heading {
+      font-size: 1.4rem; } }
+  @media (max-width: 23.4375em) {
+    .bio-heading {
+      font-size: 1.2rem; } }
 
 .progress-text {
   font-size: 2.8rem;
@@ -110,6 +116,19 @@ body {
       font-size: 1.2rem; } }
   @media (max-width: 25em) {
     .paragraph {
+      font-size: 1rem; } }
+
+.paragraph-bio {
+  font-size: 1.6rem;
+  font-weight: 400; }
+  @media (max-width: 37.5em) {
+    .paragraph-bio {
+      font-size: 1.3rem; } }
+  @media (max-width: 31.25em) {
+    .paragraph-bio {
+      font-size: 1.2rem; } }
+  @media (max-width: 25em) {
+    .paragraph-bio {
       font-size: 1rem; } }
 
 .download {
@@ -198,6 +217,9 @@ body {
 
 .u-margin-officials-left {
   margin-left: 1.2rem; }
+  @media (max-width: 25.6875em) {
+    .u-margin-officials-left {
+      margin-left: 2.2rem; } }
 
 .u-margin-officials-title-of {
   margin-top: 3.6rem; }
@@ -672,6 +694,8 @@ body {
       text-decoration: none;
       border-bottom: 0.4rem solid #34675C !important;
       cursor: pointer; }
+    .nav-bar__item::selection {
+      border-bottom: 0.4rem solid #34675C !important; }
     .nav-bar__iteminput[type=text] {
       padding: .6rem;
       margin-top: .8rem;
@@ -689,6 +713,9 @@ body {
       width: 100%;
       margin: 0;
       padding: 14px; } }
+
+a::selection {
+  border-bottom: 0.4rem solid #34675C !important; }
 
 .officials__card {
   background-color: #fff;
@@ -800,9 +827,12 @@ body {
   background-position: bottom;
   background-size: cover;
   height: 74vh; }
+  @media (max-width: 75em) {
+    .footer {
+      height: 34vh; } }
   @media (max-width: 56.25em) {
     .footer {
-      height: 64vh; } }
+      height: 40vh; } }
   @media (max-width: 37.5em) {
     .footer {
       height: 40vh; } }
@@ -812,24 +842,18 @@ body {
   @media (max-width: 25.875em) {
     .footer {
       height: 38vh; } }
-  @media (max-width: 22.5em) {
-    .footer {
-      height: 40vh; } }
   @media (max-width: 25.6875em) {
     .footer {
-      height: 40vh; } }
+      height: 39vh; } }
   @media (max-width: 25em) {
     .footer {
       height: 45vh; } }
   @media (max-width: 23.4375em) {
     .footer {
-      height: 36vh; } }
+      height: 41vh; } }
   @media (max-width: 22.5em) {
     .footer {
-      height: 44vh; } }
-  @media (max-width: 25.6875em) {
-    .footer {
-      height: 44vh; } }
+      height: 43vh; } }
   @media (max-width: 20em) {
     .footer {
       height: 50vh; } }
@@ -920,23 +944,36 @@ body {
   .rows .col-1-of-3 {
     width: calc((100% - 2 * 6rem) / 3);
     position: relative; }
-    @media (max-width: 37.5em) {
-      .rows .col-1-of-3 {
-        width: calc((100% - 1 * 1rem) / 2); } }
+  .rows .col-1-of-3-of {
+    width: calc((100% - 2 * 6rem) / 3);
+    position: relative; }
+    @media (max-width: 25.6875em) {
+      .rows .col-1-of-3-of {
+        width: calc((100% - 2 * 0rem) / 3); } }
+    @media (max-width: 23.4375em) {
+      .rows .col-1-of-3-of {
+        width: calc((100% - 2 * -1rem) / 3); } }
   .rows .col-1-of-3-f {
     width: calc((100% - 2 * 6rem) / 3);
     position: relative; }
     @media (max-width: 37.5em) {
       .rows .col-1-of-3-f {
-        margin-top: -6rem;
-        width: calc((100% - 1 * 1rem) / 2); } }
+        float: inherit;
+        width: calc((100% - 6rem) / 2); } }
   .rows .col-1-of-3-s {
     width: calc((100% - 2 * 6rem) / 3);
     position: relative; }
     @media (max-width: 37.5em) {
       .rows .col-1-of-3-s {
         margin-top: 4rem;
-        width: calc((100% - 1 * 1rem) / 2); } }
+        width: calc((100% - 6rem) / 2); } }
+  .rows .col-1-of-3-t {
+    width: calc((100% - 2 * 6rem) / 3);
+    position: relative; }
+    @media (max-width: 37.5em) {
+      .rows .col-1-of-3-t {
+        margin-top: -6.6rem;
+        width: calc((100% - 6rem) / 2); } }
   .rows .col-2-of-3 {
     width: calc( 2 * ((100% - 2 * 6rem) / 3) + 6rem); }
   .rows .col-1-of-4 {
@@ -1191,7 +1228,7 @@ body {
   position: relative; }
   @media (max-width: 56.25em) {
     .about__card {
-      height: 28.6rem; } }
+      height: 30.6rem; } }
   @media (max-width: 20em) {
     .about__card {
       height: 33.6rem; } }

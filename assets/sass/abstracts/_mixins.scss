@@ -33,7 +33,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
       @content;
     } // 320px in em
   }
-  @if $breakpoint == sam-phone {
+  @if $breakpoint == samx-phone {
     @media (max-width: 22.5em) {
       @content;
     } // 360px in em

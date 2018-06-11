@@ -4,8 +4,12 @@
   background-size: cover;
   height: 74vh;  
 
+  @include respond(tab-land) {
+    height: 34vh;
+  }
+
   @include respond(tab-port) {
-    height: 64vh;
+    height: 40vh;
   }
 
   @include respond(phone) {
@@ -21,7 +25,7 @@
   }
 
   @include respond(sam-phone) {  
-    height: 40vh;
+    height: 39vh;
   }
 
   @include respond(s-phone) {  
@@ -29,11 +33,11 @@
   }
 
   @include respond(x-phone) {  
-    height: 36vh;
+    height: 41vh;
   }
 
-  @include respond(sam-phone) {  
-    height: 44vh;
+  @include respond(samx-phone) {  
+    height: 43vh;
   }
 
   @include respond(sx-phone) {  
