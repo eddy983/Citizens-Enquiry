@@ -73,6 +73,10 @@
     text-align: center;
     transform: translate(-66%, 0%);
 
+    @include respond(tab-port) {
+      left: 51rem;
+    }
+
     @include respond(phone) {
       left: 40rem;
     }
