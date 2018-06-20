@@ -5,5 +5,9 @@
   }
   &--img {
     height: 52rem;
+
+    @include respond(4k-desk) {
+      height: 68rem;
+    }
   }
 }

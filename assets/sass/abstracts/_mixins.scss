@@ -14,7 +14,8 @@
 600px - 900px: Tablet portrait mode
 900px - 1200px: Tablet landscape
 [1200px - 1800px] is where our normal stlyes apply
-1800+: Big desktop
+1800px+: Big desktop
+2560px: 4k-desk
 
 $breakpoint arguement choices:
 - phone
@@ -92,6 +93,11 @@ ORDER: Base + typography > general layout + grid > page layout > components
     @media (min-width: 112.5em) {
       @content;
     } // 1800px in em
+  }
+  @if $breakpoint == 4k-desk {
+    @media (min-width: 160em) {
+      @content;
+    } // 2560px in em
   }
 }
 

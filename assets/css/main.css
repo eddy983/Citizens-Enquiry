@@ -5,7 +5,8 @@
 600px - 900px: Tablet portrait mode
 900px - 1200px: Tablet landscape
 [1200px - 1800px] is where our normal stlyes apply
-1800+: Big desktop
+1800px+: Big desktop
+2560px: 4k-desk
 
 $breakpoint arguement choices:
 - phone
@@ -475,6 +476,9 @@ body {
 
 .carousel--img {
   height: 52rem; }
+  @media (min-width: 160em) {
+    .carousel--img {
+      height: 68rem; } }
 
 .enquiry__card {
   background-color: #fff;
@@ -965,6 +969,9 @@ a::selection {
 .rows {
   max-width: 144.6rem;
   margin: 0 6.7rem; }
+  @media (min-width: 160em) {
+    .rows {
+      margin: 0 38.7rem; } }
   @media (max-width: 37.5em) {
     .rows {
       margin: 0 2rem; } }
@@ -1068,6 +1075,9 @@ a::selection {
 .c-rows {
   max-width: 144.6rem;
   margin: 0 6.7rem; }
+  @media (min-width: 160em) {
+    .c-rows {
+      margin: 0 38.7rem; } }
   @media (max-width: 31.25em) {
     .c-rows {
       margin: 0 2rem; } }
@@ -1172,8 +1182,6 @@ a::selection {
     @media (max-width: 25em) {
       .navigation__list {
         left: 26rem; } }
-  .navigation__item {
-    margin: 1rem; }
   .navigation__link:link, .navigation__link:visited {
     background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #ffffff !important 50%);
     color: #000000;

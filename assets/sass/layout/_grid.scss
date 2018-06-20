@@ -4,6 +4,10 @@
   //background-color: whitesmoke;
   margin: 0 6.7rem;
 
+  @include respond(4k-desk) {
+    margin: 0 38.7rem;
+  }
+
   @include respond(phone) {
     margin: 0 2rem;
   }
@@ -186,6 +190,10 @@
   max-width: $grid-width;
   //background-color: whitesmoke;
   margin: 0 6.7rem;
+
+  @include respond(4k-desk) {
+    margin: 0 38.7rem;
+  }
 
   @include respond(m-phone) {
     margin: 0 2rem;
