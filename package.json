@@ -1,5 +1,5 @@
 {
-  "name": "sass",
+  "name": "citizens-enquiry",
   "version": "1.0.0",
   "description": "Citizen's Enquiry",
   "main": "index.html",
@@ -10,5 +10,14 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.9.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddy983/Citizens-Enquiry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eddy983/Citizens-Enquiry/issues"
+  },
+  "homepage": "https://github.com/eddy983/Citizens-Enquiry#readme"
 }

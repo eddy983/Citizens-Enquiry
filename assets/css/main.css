@@ -641,6 +641,13 @@ body {
 .nav-bar {
   overflow: hidden;
   background-color: #F1F1F2 !important; }
+  .nav-bar__logo {
+    padding: 0.9rem 1.6rem; }
+    @media (max-width: 56.25em) {
+      .nav-bar__logo {
+        display: none; } }
+    .nav-bar__logo__img {
+      height: 4rem; }
   .nav-bar__search-container {
     float: right; }
     @media (max-width: 31.25em) {
